@@ -3,9 +3,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">
-          Akhils Album
-        </a>
+        <span className="navbar-brand">Akhils Album</span>
         <button
           className="navbar-toggler"
           type="button"
