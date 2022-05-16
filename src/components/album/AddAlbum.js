@@ -19,7 +19,7 @@ const AddAlbum = () => {
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    let id = e.target.id.value;
+    const id = e.target.id.value;
     if (checkIfId(db, id)) {
       alert("please choose different id, Id already exist");
       return;
@@ -29,10 +29,8 @@ const AddAlbum = () => {
   };
 
   const checkIfId = (data, id) => {
-    for (let x of data.albums) {
-      if (x.id == id) {
-        return true;
-      }
+    for (let x in data.albums) {
+      console.log(data.albums[x].id);
     }
   };
 
