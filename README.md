@@ -1,6 +1,6 @@
 ## A basic Album App with CRUD operation using face JSON REST API.
 
-Clone it using git clone : "https://github.com/Akhilesh17-Tech/Album-App.git"
+Clone it using git clone : https://github.com/Akhilesh17-Tech/akhils-album.git
 
 In the project directory, you can run:
 
@@ -10,7 +10,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### Deployment
-- Please check with given url app is live : https://akhilesh17-tech.github.io/Album-App/
+- Please check with given url app is live : https://akhilesh17-tech.github.io/akhils-album/
 
 # Features 
 - Fetch and show albums from the api - https://jsonplaceholder.typicode.com/albums
