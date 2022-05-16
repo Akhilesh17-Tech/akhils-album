@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/akhils-album/static/css/main.d7640fe9.css",
+    "main.js": "/akhils-album/static/js/main.acf1307f.js",
+    "index.html": "/akhils-album/index.html",
+    "main.d7640fe9.css.map": "/akhils-album/static/css/main.d7640fe9.css.map",
+    "main.acf1307f.js.map": "/akhils-album/static/js/main.acf1307f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7640fe9.css",
+    "static/js/main.acf1307f.js"
+  ]
+}
