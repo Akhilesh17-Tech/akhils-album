@@ -11,6 +11,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
+        <Home />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/album/add" element={<AddAlbum />} />
