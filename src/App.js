@@ -5,6 +5,7 @@ import Navbar from "./components/layout/Navbar";
 import AddAlbum from "./components/album/AddAlbum";
 import EditAlbum from "./components/album/EditAlbum";
 import ViewAlbum from "./components/album/ViewAlbum";
+import NotFound from "./components/pages/NotFound";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/album/add" element={<AddAlbum />} />
           <Route path="/album/edit/:id" element={<EditAlbum />} />
           <Route path="/album/view/:id" element={<ViewAlbum />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </Router>

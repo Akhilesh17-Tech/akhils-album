@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import db from "../../db.json";
+import db from "../../../src/db.json";
 
 const AddAlbum = () => {
   let navigate = useNavigate();
@@ -19,7 +19,7 @@ const AddAlbum = () => {
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    const id = e.target.id.value;
+    let id = e.target.id.value;
     if (checkIfId(db, id)) {
       alert("please choose different id, Id already exist");
       return;
@@ -29,8 +29,10 @@ const AddAlbum = () => {
   };
 
   const checkIfId = (data, id) => {
-    for (let x in data.albums) {
-      console.log(data.albums[x].id);
+    for (let x of data.albums) {
+      if (x.id == id) {
+        return true;
+      }
     }
   };
 

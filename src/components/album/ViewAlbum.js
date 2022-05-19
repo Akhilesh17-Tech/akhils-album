@@ -5,12 +5,11 @@ import axios from "axios";
 const ViewAlbum = () => {
   const { id } = useParams();
   const [album, setAlbum] = useState({
-    UserId: "",
-    id: "",
+    userId: "",
     title: "",
   });
 
-  const { UserId, title } = album;
+  const { userId, title } = album;
   useEffect(() => {
     loadAlbums();
   }, []);
@@ -27,7 +26,7 @@ const ViewAlbum = () => {
       <h1 className="display-4">User Id: {id}</h1>
       <hr />
       <ul className="list-group w-50">
-        <li className="list-group-item">User Id: {UserId}</li>
+        <li className="list-group-item">User Id: {userId}</li>
         <li className="list-group-item">Id : {id}</li>
         <li className="list-group-item">Title: {title}</li>
       </ul>
