@@ -1,4 +1,4 @@
-## A basic Album App with CRUD operation using face JSON REST API.
+## A basic Album App with CRUD operation using fake JSON REST API.
 
 Clone it using git clone : https://github.com/Akhilesh17-Tech/akhils-album.git
 
